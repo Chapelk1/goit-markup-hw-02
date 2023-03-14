@@ -1,12 +1,17 @@
 :root{
-    --main-color-btn: #4D5AE5;
-    --bg-color-dark: #2E2F42;
-    --color-active: #404BBF;
+    --color-iris: #4D5AE5;
+    --color-ocean: #404BBF;
+    --color-navy-blue: #2E2F42;
+    --color-green: #31D0AA;
+    --color-slate: #434455;
+    --color-light-slate: #8E8F99;
+    --color-cornflower: #E7E9FC;
+    --color-cloud: #F4F4FD;
+    --color-white: #FFFFFF;
 }
-
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+    color: var(--color-navy-blue);
 }
 .list{
     list-style: none;
@@ -16,8 +21,8 @@ body {
 }
 /* header */
 .header{
-    background-color: #FFFFFF;
-    border-bottom: 1px solid #E7E9FC;
+    background-color: var(--color-white);
+    border-bottom: 1px solid var(--color-cornflower);
 }
 .navigation-logo{
     font-family: 'Raleway', sans-serif;
@@ -25,11 +30,11 @@ body {
     font-size: 18px;
     line-height: 1.33;
     text-decoration: none;
-    color:var(--bg-color-dark);
+    color:var(--color-navy-blue);
 
 }
 .logo-color{
-    color:var(--main-color-btn);
+    color:var(--color-iris);
  
 }
 .navigation-list{
@@ -44,26 +49,26 @@ body {
     font-style: normal;
 }
 .navigation-link{
-    color: var(--bg-color-dark);
+    color: var(--color-navy-blue);
 }
 .address-link{
-    color: #434455;
+    color: var(--color-slate);
 }
 .navigation-link:hover,
 .navigation-link:focus,
 .address-link:hover,
 .address-link:focus{
-    color: var(--color-active);
+    color: var(--color-ocean);
 }
 /* hero */
 .hero{
-    background-color: var(--bg-color-dark);
+    background-color: var(--color-navy-blue);
 }
 .hero-title{
     font-weight: 700;
     font-size: 56px;
     line-height: 1,07;
-    color: #FFFFFF;
+    color: var(--color-white);
 }
 .style-btn{
     cursor: pointer;
@@ -77,17 +82,17 @@ body {
 .hero-btn{
     width: 169px;
     height: 56px;
-    color: #FFFFFF;
-    background-color: var(--main-color-btn);
+    color: var(--color-white);
+    background-color: var(--color-iris);
 }
 .hero-btn:hover,
 .hero-btn:focus{
-    background-color: #404BBF;
+    background-color: var(--color-ocean);
 }
 /* section 2 */
 .qulity,
 .our-work{
-    background-color: #FFFFFF;
+    background-color: var(--color-white);
 }
 .qulity-subtitle{
     font-weight: 500;
@@ -96,7 +101,7 @@ body {
 }
 .qulity-descr{
     line-height: 1.5;
-    color: #434455;
+    color: var(--color-slate);
 }
 /* section 3 */
 .work-title{
@@ -106,7 +111,7 @@ body {
 }
 /* section 4 */
 .team{
-    background-color: #F4F4FD;
+    background-color: var(--color-cloud);
 }
 .team-title{
     font-weight: 700;
@@ -120,42 +125,46 @@ body {
 
 }
 .team-descr{
-    color: #434455;
+    color: var(--color-slate);
 }
 /* footer */
 .footer{
-    background-color: var(--bg-color-dark);
+    background-color: var(--color-navy-blue);
 }
 .footer-descr{
-    color: #E7E9FC;
+    color: var(--color-cornflower);
 }
 .navigation-logo-footer{
-    color: #F4F4FD;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    color: var(--color-cornflower);
     text-decoration: none;
 }
 
 
 /* portfolio */
 .exampl-btn{
-    background-color: #F4F4FD;
-    color: var(--main-color-btn);
+    background-color: var(--color-cloud);
+    color: var(--color-iris);
     padding: 12px 24px;
-    border: 1px solid #E7E9FC;
+    border: 1px solid var(--color-cornflower);
 }
 .exampl-btn:hover,
 .exampl-btn:focus{
-    background-color: var(--color-active);
-    color: #FFFFFF;
+    background-color: var(--color-ocean);
+    color: var(--color-white);
 }
 .examples-work-subtitle{
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    color: #2E2F42;
+    color: var(--color-navy-blue);
 }
 .examples-work-descr{
-    color: #434455;
+    color: var(--color-slate);
     font-size: 16px;
     line-height: 1.5;
 }
