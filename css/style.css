@@ -11,7 +11,7 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--color-navy-blue);
+    color: #2E2F42;
 }
 .list{
     list-style: none;
@@ -28,21 +28,22 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.33;
-    text-decoration: none;
-    color:var(--color-navy-blue);
+    line-height: 1.17;
+    color:var(--color-iris);
+    letter-spacing: 0.03em;
+    text-transform: uppercase
 
 }
-.logo-color{
-    color:var(--color-iris);
- 
+.head-logo{
+    color: var(--color-navy-blue);
 }
 .navigation-list{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em
 } 
-.address-list{
+.address{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -53,6 +54,9 @@ body {
 }
 .address-link{
     color: var(--color-slate);
+}
+.mail{
+    letter-spacing: 0.02em
 }
 .navigation-link:hover,
 .navigation-link:focus,
@@ -131,8 +135,7 @@ body {
 .footer{
     background-color: var(--color-navy-blue);
 }
-.footer-descr,
-.logo-foot{
+.footer-descr{
     color: var(--color-cornflower);
 }
 
