@@ -131,16 +131,9 @@ body {
 .footer{
     background-color: var(--color-navy-blue);
 }
-.footer-descr{
+.footer-descr,
+.logo-foot{
     color: var(--color-cornflower);
-}
-.navigation-logo-footer{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    color: var(--color-cornflower);
-    text-decoration: none;
 }
 
 
