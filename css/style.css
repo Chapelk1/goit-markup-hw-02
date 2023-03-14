@@ -71,8 +71,10 @@ body {
 .hero-title{
     font-weight: 700;
     font-size: 56px;
-    line-height: 1,07;
+    line-height: 1.07;
     color: var(--color-white);
+    text-align: center;
+    letter-spacing: 0.02em
 }
 .style-btn{
     cursor: pointer;
@@ -81,7 +83,8 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.04em
 }
 .hero-btn{
     width: 169px;
@@ -91,7 +94,7 @@ body {
 }
 .hero-btn:hover,
 .hero-btn:focus{
-    background-color: var(--color-ocean);
+    background-color: #404BBF;
 }
 /* section 2 */
 .qulity,
