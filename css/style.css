@@ -92,21 +92,25 @@ body {
 }
 .hero-btn:hover,
 .hero-btn:focus{
-    background-color: #404BBF;
+    color: #404BBF;
 }
 /* section 2 */
 .qulity,
 .our-work{
     background-color: var(--color-white);
 }
-.qulity-subtitle{
+.quality-subtitle{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 .qulity-descr{
+    font-size: 16px;
     line-height: 1.5;
     color: var(--color-slate);
+    letter-spacing: 0.02em;
 }
 /* section 3 */
 .work-title{
