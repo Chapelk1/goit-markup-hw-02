@@ -92,7 +92,7 @@ body {
 }
 .hero-btn:hover,
 .hero-btn:focus{
-    color: #404BBF;
+    background-color: var(--color-ocean);
 }
 /* section 2 */
 .qulity,
